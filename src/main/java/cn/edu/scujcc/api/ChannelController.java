@@ -26,7 +26,7 @@ public class ChannelController {
 	private ChannelService service;
 	@GetMapping
     public List<Channel> getAllChannels() {
-		logger.info("正在查找所有频道信息。。。");
+		logger.info("正在查找所有频道信息...");
 		List<Channel> result =service.getAllChannels();
 		logger.debug("所有频道数量是："+result.size());
 //    	return service.getAllChannel();
