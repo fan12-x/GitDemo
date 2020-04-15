@@ -16,7 +16,10 @@ public class Channel {
     private String quality;
     private String url;
     private List<Comment> comments;
-    
+    /**
+     * ªÒ»°
+     * @return
+     */
 	public List<Comment> getComments() {
 		return comments;
 	}
